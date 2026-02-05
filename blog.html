@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <!-- nav -->
+    <div class=" bg-[#805B19] md:pb-7 pb-[3px]">
+        <nav class="   md:mx-10">
+            <div class="flex justify-between items-center">
+                <a href="index.html">
+                    <img src="public/cricbet99.com_.webp" alt="logo"
+                        class="md:h-[45px] h-[36px] md:pt-0 md:mt-8 pt-1 cursor-pointer ml-0 md:ml-6" />
+                </a>
+
+
+                <div class="hidden md:flex gap-8 mt-6 pr-[55px] text-white text-[17px] ">
+                    <a href="index.html" class="hover:text-yellow-300 ">
+                        Home
+                    </a>
+                    <a href="about.html" class="hover:text-yellow-300 ">
+                        About
+                    </a>
+                    <a href="blog.html" class="hover:text-yellow-300 text-yellow-400">
+                        Blogs
+                    </a>
+                </div>
+
+                
+
+                <div class="relative md:hidden">
+                    <button id="mobile-menu-btn" class="p-2" aria-label="Menu">
+                        <svg viewBox="0 0 448 512" class="w-6 h-6 fill-[#fdc620]" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z" />
+                        </svg>
+                    </button>
+
+                    <div id="mobile-dropdown"
+                        class="fixed top-0 left-0   h-full w-64 bg-[#fdc620] shadow-2xl z-50 transform -translate-x-full transition-transform duration-300 ease-in-out">
+                        <div class="flex justify-end p-4">
+                            <button id="close-menu" class="text-2xl font-bold ">&times;</button>
+                        </div>
+
+
+                        <div class="flex flex-col space-y-2">
+                            <a href="index.html"
+                                class="block px-6 py-3 text-black font-bold hover:bg-yellow-500 border-b border-yellow-600">Home</a>
+                            <a href="about.html"
+                                class="block px-6 py-3 text-black font-bold hover:bg-yellow-500 border-b border-yellow-600">About</a>
+                            <a href="blog.html"
+                                class="block px-6 py-3 text-black font-bold hover:bg-yellow-500 border-b border-yellow-600">Blog</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a href="x" target="_blank" rel="noopener noreferrer"
+                    class="fixed  hidden right-0 bottom-0 bg-[#00FF23] text-black font-medium px-6 py-[6px] rounded shadow-lg md:flex items-center gap-2 hover:opacity-90 z-50 text-[25px]">
+
+                    WhatsApp Us Now
+                </a>
+                <a href="x" target="_blank" rel="noopener noreferrer"
+                    class="fixed bottom-0 w-full flex justify-center p-2 items-center bg-[#00FF23] text-black rounded shadow-lg md:hidden  gap-2 hover:opacity-90 z-50 font-medium text-[25px]">
+
+                    WhatsApp Us Now
+                </a>
+        </nav>
+
+
+    </div>
+
+
+    <div class="bg-black">
+
+        <div class="bg-black">
+            <h1 class="text-[40px] font-bold tracking-wide text-yellow-400 mb-5 text-center py-5 px-10 md:px-0">
+                Blogs Listing Page
+            </h1>
+
+
+            <div class="  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-8 bg-black px-2 md:px-14">
+
+
+
+                <!-- 1 -->
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/b1.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            Understanding No-Loss and Cashback Benefits on Cricbet99 App </h3>
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+                            February 3, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/b2.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            Who Is the Fastest Bowler in Cricket History?</h3>
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+                            January 31, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/b3.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            Cricbet99 App Cricket Betting Guide: IPL, BBL & International Matches </h3>
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+                            January 29, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/b4.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            How to Fix Cricbet99 App Lag During Live Betting and Reduce Delays</h3>
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+                            January 27, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <!-- b5 -->
+
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/b5.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            Best IPL 2026 Player Prop Bets on Cricbet99 </h3>
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+                            January 22, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <!-- b6 -->
+
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/b6.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            IPL 2026 Betting Terms Explained: Cricbet99 Moneyline, Over/Under, Props </h3>
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+                            January 21, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/2.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            How to Get a Free Betting ID in India: Your Complete Guide with Cricbet99 </h3>
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+                            January 20, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/b8.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            Lay Betting Explained: The Ultimate Guide to Betting Like a Bookmaker </h3>
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+                            January 13, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/b9.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            Best Cricket Betting Strategies That Work on Cricbet99 – Win Smarter </h3>
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+                            February 3, 2026
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 10 -->
+
+                <div
+                    class="rounded-[12px] border border-yellow-400 bg-black shadow-[0_0_8px_rgba(255,215,0,0.7),0_0_8px_rgba(255,215,0,0.45),0_0_8px_rgba(255,215,0,0.25)] overflow-hidden">
+
+                    <div class="p-4 pt-8">
+                        <img src="public/b10.webp" alt="Blog" class="w-full rounded-md" />
+                    </div>
+
+                    <div class="p-4 pt-0">
+                        <h3 class="text-yellow-400 text-[17px]">
+                            Cricbet99 Betting Rules – New Users Must Read </h3>
+
+
+
+
+
+
+                        <p class="text-yellow-400 text-md pt-[50px] pb-4">
+
+                            February 3, 2026
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+            <div class="bg-black">
+                <div class="  pt-6 mt-6 md:mx-16 mx-8"></div>
+
+                <div class="ml-24 mr-16 p-2 md:flex  hidden md:block  ">
+                    <img src="public/18.webp" alt="" class="h-16 mx-20" />
+
+                    <img src="public/dmca.webp" alt="" class="h-14 ml-48" />
+
+                    <img src="public/gambling.webp" alt="" class="h-8   md:mt-4 " />
+                </div>
+
+                <div class="md:ml-24 md:mr-16 p-2 md:flex justify-center  md:hidden  mb-20 mt-4  ">
+                    <div  class="justify-center flex"><img src="public/18.webp" alt="" class="h-16  mt-7" /></div>
+
+                    <div  class="justify-center flex"><img src="public/dmca.webp" alt="" class="h-14 mt-8" /></div>
+
+                    <div class="justify-center flex"><img src="public/gambling.webp" alt="" class="h-6  mt-10 " /></div>
+                </div>
+
+            </div>
+
+
+
+
+            <footer class="bg-black text-white  px-6 md:px-16">
+
+                <div class=" text-white mb-6"></div>
+
+                <h2 class="text-center text-3xl font-semibold mb-6 hidden md:block">
+                    Quick Links
+                </h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-5 ">
+
+                    <div>
+                        <img src="public/cricbet99.com_ (2).webp" alt="Cricbet99 Logo" class="md:h-10 h-16" />
+                        <p class="text-white leading-relaxed pt-4 text-[15px]">
+                            Get your exclusive betting ID within minutes! Cricbet99 offers
+                            instant login and fast signup, quick withdrawals, Trusted by
+                            thousands of players so you can start enjoying cricket, football,
+                            and casino games without any delays.
+                        </p>
+                    </div>
+
+                    <ul class=" cursor-pointer">
+                        <li>Cricbet99</li>
+                        <li>Cricbet99 Login</li>
+                        <li>Cricbet99 Sign Up</li>
+                        <li>Cricbet99 App</li>
+                        <li>Cricbet99 Bet</li>
+                        <li>Cricbet99 ID</li>
+                        <li>Cricbet99 Club</li>
+                        <li>Cricbet99 Win</li>
+                        <li>Cricbet99.win</li>
+                        <li>Cricbet99 Win login</li>
+                        <li>Cricbet99.com Register</li>
+                    </ul>
+
+                    <ul class="cursor-pointer">
+                        <li>Cricbet99 Live Casino</li>
+                        <li>Cricbet99</li>
+                        <li>Cric99</li>
+                        <li>cricketbet999</li>
+                        <li>cricbet99 Sports Betting</li>
+                        <li>cricbet99 Payment Methods</li>
+                        <li>Cricbet 99 Registration</li>
+                    </ul>
+
+                    <ul class=" cursor-pointer p-1">
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Cricbet99 Blog</li>
+                        <li>Cricket Betting</li>
+                        <li>Cricbet99 WhatsApp Number</li>
+                        <li>cricbet99.club</li>
+                        <li>Cricbet99 Club Login</li>
+                        <li>Cricbet99.green</li>
+                        <li>Cricbet99 Green</li>
+                    </ul>
+
+                    <ul class=" cursor-pointer">
+                        <li>Cricbet99 Customer Care</li>
+                        <li>Cricbet99 Phone Number</li>
+                        <li>Cricbet99 Bonuses & Promotions</li>
+                        <li>Cricbet 99 Online Support</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Responsible Gambling</li>
+                    </ul>
+
+                </div>
+
+                <p class="text-white text-[13px] mt-8  md:mx-8 text-center">
+                    Cricbet99 | welcome to cricbet99 | www cricbet99 com | Cricbet99 india |
+                    Cricbet99 Review | Cricbet 99 | Cic bet 99 | cricbet99 link |
+                    cricbet99 website | cricbet99 online | cricbet9 live |
+                    cricbet9 phone number | cricbet99 link | Http Cricbet99 |
+                    Http M Cricbet99 | Https M Cric Bet 99 | M Cricbet99 |
+                    My Cricbet99 Game ID | Cric Bet 99 | Cricket99 | Cricket 99 |
+                    Cricbet99 App | Cricbet99 Login | M Cricbet99 Login |
+                    Cricbet99 | Cricbet99 Link | Cricbet99 Com | Cricbet99 Com Login
+                </p>
+
+                <div class="border-t text-white my-3"></div>
+
+                <p class="text-center  text-white pb-16">
+                    ©2025. All rights reserved. Powered by
+                    <span class="text-yellow-400"> Cricbet99aa</span>.
+                </p>
+
+            </footer>
+
+
+        </div>
+        
+        <script>
+             const btn = document.getElementById('mobile-menu-btn');
+        const closeBtn = document.getElementById('close-menu');
+        const menu = document.getElementById('mobile-dropdown');
+
+
+        btn.addEventListener('click', () => {
+            menu.classList.remove('-translate-x-full');
+        });
+
+
+        closeBtn.addEventListener('click', () => {
+            menu.classList.add('-translate-x-full');
+        });
+
+
+        window.addEventListener('click', (e) => {
+            if (e.target !== btn && !btn.contains(e.target) && e.target !== menu && !menu.contains(e.target)) {
+                menu.classList.add('-translate-x-full');
+            }
+        });
+        </script>
+
+</body>
+
+</html>
